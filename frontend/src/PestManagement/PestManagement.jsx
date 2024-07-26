@@ -74,7 +74,7 @@ function Pestmanagement() {
         <div className="crop22" style={{ whiteSpace: 'pre-line' }}>
           {cleanedResponse ? <p>{cleanedResponse}</p> : <p>Please Click the button below to get your pest control recommendation</p>}
         </div>
-        <button onClick={handleSubmit}>Get your ecommendation</button>
+        <button onClick={handleSubmit}>Get your recommendation</button>
       </div>
 
 
