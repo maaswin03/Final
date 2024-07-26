@@ -1,9 +1,11 @@
+require('dotenv').config()
+
 const express = require("express");
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const cors = require("cors");
 
-const genAI = new GoogleGenerativeAI("AIzaSyDxXD0Is4oj0TLsTz056ylvmFIT0UZcV0I");
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 
 const app = express();
 const port = 5100;
@@ -11,7 +13,7 @@ const port = 5100;
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb+srv://aswin2005:Aswin2005@project.rddo8i4.mongodb.net/?retryWrites=true&w=majority&appName=PROJECT";
+const uri = process.env.MONGODB;
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
@@ -34,22 +36,6 @@ async function run() {
   }
 }
 run();
-
-app.post("/generate", async (req, res) => {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-  const prompt = "Recommend crops based on Indian conditions";
-
-  try {
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = await response.text();
-
-    console.log(text);
-    res.json({ text });
-  } catch (error) {
-    res.status(500).json({ message: "An error occurred", error: error.message });
-  }
-});
 
 app.post("/chatbot", async (req, res) => {
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
@@ -124,7 +110,6 @@ app.post("/cropai", async (req, res) => {
   }
 });
 
-
 app.post("/cropfertilizer", async (req, res) => {
   const device_id = "ab01";
 
@@ -164,7 +149,6 @@ app.post("/cropfertilizer", async (req, res) => {
   }
 });
 
-
 app.post("/pest", async (req, res) => {
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
   const prompt = "Tell about pest control in detail in india in paragraph";
@@ -181,7 +165,7 @@ app.post("/pest", async (req, res) => {
   }
 });
 
-
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
