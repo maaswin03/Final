@@ -1,0 +1,78 @@
+.cropdoc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.cropdoc-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cropdoc-upload {
+    margin: 20px 0;
+}
+
+.cropdoc-upload input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cropdoc-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cropdoc-button:hover {
+    background-color: #218838;
+}
+
+.cropdoc-prediction {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #28a745;
+}
+
+
+.crop40{
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.crop41{
+    width: 50%;
+}
+
+.crop41 p{
+    color:white;
+    margin-bottom: 1%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.crop41 input, select{
+    margin-bottom: 3%;
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color:rgb(110, 110, 110);
+    font-size: 17px;
+}

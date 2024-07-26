@@ -1,0 +1,128 @@
+.profile1{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid rgb(171, 171, 171);
+}
+
+.profile2{
+    width: 50%;
+}
+
+.profile2 h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.profile3 a{
+    color: blue;
+    text-decoration: none;
+}
+
+.profile3 a:hover{
+    text-decoration: underline;
+}
+
+
+.profile3{
+    text-align: end;
+}
+
+.profile4{
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.profile4 h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.profile10{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+
+.profile5{
+    width:70%;
+    margin: auto;
+    display: inline;
+}
+
+.profile6{
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+    column-gap: 3%;
+}
+
+.profile8{
+    width: 35%;
+    margin-bottom: 3%;
+}
+
+.profile8 h2{
+    font-weight: 600;
+    font-size: 25px
+}
+
+.profile8 h3{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.profile8 a{
+    text-decoration:none;
+    color:blue;
+}
+
+.profile8 a:hover{
+    text-decoration: underline;
+}
+
+.profile16 a{
+    text-decoration:none;
+    color:blue;
+}
+
+.profile16 a:hover{
+    text-decoration: underline;
+}
+
+
+.profile8 p{
+    margin-top: 2%;
+}
+
+.profile9{
+    width: 70%;
+}
+.profile9 img{
+    margin-left:25% ;
+}
+
+.profile15{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    column-gap: 5%;
+}
+
+.profile16{
+    width: 35%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color:rgb(238, 255, 245);
+}

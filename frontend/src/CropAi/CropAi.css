@@ -1,0 +1,150 @@
+.crop1 {
+    width: 100%;
+}
+
+.crop2 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+.crop3 {
+    width: 24%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 10px;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 3%;
+    height: 330px;
+}
+
+.crop3 img {
+    margin-top: 0;
+}
+
+.crop3 h2 {
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(234, 80, 73);
+}
+
+.crop4 span {
+    font-size: 16px;
+
+}
+
+.crop4 p {
+    font-size: 12px;
+}
+
+.crop5 {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.crop6 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.crop7 {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+.crop7 h1 {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(234, 80, 73);
+}
+
+.crop7 p {
+    font-family: Poppins;
+    color: rgb(46, 141, 78);
+    margin-bottom: 1%;
+}
+
+.crop8{
+    width: 100%;
+    margin-top: 0%;
+}
+
+.crop9{
+    width: 94%;
+    margin: auto;
+}
+
+.crop9 p{
+    font-family: Poppins;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.crop10{
+    display: flex;
+    column-gap: 4%;
+}
+
+.crop10 a{
+    text-decoration: none;
+    margin-bottom: 3%;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(46, 141, 78);
+    color:white;
+    border-radius: 5px;
+}
+
+.crop10 a:hover{
+    background-color: rgb(234, 80, 73);
+}
+
+
+.crop21{
+    width: 95%;
+    margin: auto;
+    background-color: #626262;
+    margin-top: 2%;
+    padding: 2% 0% 2% 0%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+
+.crop22{
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+.crop22 p{
+    color: #626262;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.crop21 button{
+    margin-left: 30px;
+    margin-top: 3%;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 1%;
+    border: none;
+    background-color: rgb(234, 80, 73);
+    color:white;
+    border-radius: 5px;
+}
+
+.crop21 button:hover{
+    background-color: rgb(46, 141, 78);
+}

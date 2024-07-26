@@ -1,0 +1,31 @@
+.alert1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.alert1 h1 {
+    font-family: poppins;
+    font-size: 30px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    font-weight: 600;
+    color: rgb(46, 141, 78);
+}
+
+.alert2{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color:rgb(238, 255, 245);
+    padding: 5%;
+    text-align: center;
+}
+
+.alert2 p{
+    font-family: Poppins;
+    font-size: 20px;
+}

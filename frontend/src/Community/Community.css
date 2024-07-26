@@ -1,0 +1,87 @@
+/* Community.css */
+
+body {
+  font-family: poppins;
+}
+
+.community1 {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #626262;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.community1 h1 {
+  color: #333;
+  font-weight: 600;
+}
+
+form.post-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.community1 [type="text"],
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  font-size: 17px;
+  width: 100%;
+}
+
+.community1 textarea {
+  resize: none;
+}
+
+.community1 button {
+  padding: 10px;
+  width: 30%;
+  border: none;
+  background-color: rgb(234, 80, 73);
+  color: white;
+  border-radius: 5px;
+}
+
+.community1 button:hover {
+  background: rgb(46, 141, 78);
+}
+
+.community1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.community2 {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.community2 h3 {
+  color: rgb(46, 141, 78);
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.community2 p {
+  margin: 5px 0;
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.community2 p:last-child {
+  text-align: right;
+  font-style: italic;
+  color: #888;
+}

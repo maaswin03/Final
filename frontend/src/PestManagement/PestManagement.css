@@ -1,0 +1,134 @@
+body{
+    font-family: Poppins;
+}
+.pest1 {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 1%;
+}
+
+.pest1 h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(234, 80, 73);
+    font-weight: 700;
+}
+
+.pest2 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 18px;
+}
+
+.pest3 {
+    width: 24%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 15px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding: 2%;
+    padding-top: 3%;
+}
+
+.pest3 h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5%;
+    color: rgb(46, 141, 78);
+}
+
+.pest3 p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.pest4 {
+    width: 95%;
+    height: 170px;
+    margin: auto;
+}
+
+.pest5 {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.pest5 h1 {
+    font-size: 30px;
+    color: rgb(234, 80, 73);
+    font-weight: 700;
+}
+
+.pest6 {
+    width: 95%;
+    margin: auto;
+}
+
+.pest7 {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    display: flex;
+}
+
+.pest8 {
+    width: 40%;
+}
+
+.pest9 {
+    width: 60%;
+    padding: 2%;
+}
+
+.pest9 span {
+    font-size: 17px;
+    color: #8B8E99;
+    font-weight: 600;
+}
+
+.pest9 p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.pest8 button {
+    background-color: rgb(46, 141, 78);
+    width: 30%;
+    padding: 7px;
+    border: none;
+    font-family: poppins;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+}
+
+.pest8 button:hover {
+    background-color: rgb(234, 80, 73);
+}
+
+.pest12 {
+    padding-left: 3%;
+}
+
+.pest10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pest11 {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+
+
