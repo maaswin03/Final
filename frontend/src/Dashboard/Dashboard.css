@@ -191,3 +191,54 @@ table {
 #dash12 td{
     background-color: rgb(46, 141, 78,0.3);
 }
+
+@media (max-width: 767px){
+    .dash2{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .dash50{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .dash3{
+        width: 49%;
+        margin-top: 3%;
+        padding: 4%;
+        padding-bottom: 0;
+    }
+    .dash7{
+        flex-wrap: wrap;
+    }
+    .dash8{
+        width: 100%;
+        margin-top: 3%;
+        padding: 4%;
+        padding-bottom: 0;
+    }
+    table{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    td{
+        padding: 9px;
+        font-size: 10px;
+    }
+
+    .dash1 h2{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .dash4 h2{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .dash6 h2{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .dash10 h2{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+}

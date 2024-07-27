@@ -148,3 +148,53 @@
 .crop21 button:hover{
     background-color: rgb(46, 141, 78);
 }
+
+@media (max-width: 767px){
+    .crop21 button{
+        margin-left: 10px;
+        width: 80%;
+        font-size: 15px;
+    }
+    .crop21{
+        padding-top:10px ;
+        padding-bottom: 10px;
+    }
+    .crop22 p{
+        font-size: 13px;
+    }
+    .crop3{
+        width: 49%;
+        height: 330px;
+    }
+    .crop3 h2{
+        font-size: 25px;
+    }
+    .crop3 span{
+        font-size: 13px;
+    }
+    .crop3 p{
+        font-size: 10px;
+    }
+    .crop7 h1{
+        font-size: 25px;
+    }
+    .crop7 p{
+        font-size: 15px;
+    }
+    .crop10{
+        flex-wrap: wrap;
+        column-gap: 2%;
+    }
+    .crop10 a{
+        padding: 1px 10px 1px 10px;
+        font-size: 13px;
+    }
+    .crop1{
+        margin-bottom: 10%;
+        margin-top: 2%;
+    }
+
+    .crop6{
+        margin-top: 10%;
+    }
+}

@@ -256,7 +256,7 @@ function Fieldbot() {
         <div className="field5">
           <img src={image2} />
         </div>
-        <div className="field5" style={{ width: "60%" }}>
+        <div className="field5 field100">
           <h2>Heading: Precision Irrigation: Your Crops' Thirst Quenched</h2>
           <p>
             Precision Irrigation is the key to optimizing water usage for
@@ -361,7 +361,7 @@ function Fieldbot() {
       </div>
 
       <div className="field13" style={{ columnGap: "10%" }}>
-        <div className="field12" style={{ width: "60%" }}>
+        <div className="field12 field100">
           <h2>Comprehensive Field Monitoring for Optimal Growth</h2>
           <p>
             Beyond water management, our system offers real-time insights into

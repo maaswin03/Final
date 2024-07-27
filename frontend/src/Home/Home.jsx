@@ -96,26 +96,26 @@ function Home() {
                 </div>
             </div>
 
-            <div className='home5'>
+            <div className='home225'>
                 <h2>Latest News</h2>
-                <div className='home6'>
-                    <div className='home7' style={{width:'30%',height:'400px'}}>
-                        <div className='home11 home20' style={{ borderBottom: 'none', height: '400px' }}>
-                            <p style={{ marginBottom: '0', marginTop: '5%', fontSize: '15px', fontWeight: '600' }}>March 20 , 2024</p>
+                <div className='home226'>
+                    <div className='home227'>
+                        <div className='home211 home220'>
+                            <p>March 20 , 2024</p>
                             <h3>AgriSense Revolutionizes Crop Management with New AI Features</h3>
                             <p>AgriSense has introduced advanced AI features to its platform, enhancing crop management practices. The new AI-powered crop health monitoring system uses satellite imagery and machine learning to identify issues like pests and diseases early on. Additionally, the AI-driven crop yield prediction tool helps farmers plan harvesting and marketing strategies more effectively. CEO Aswin stated, "Our goal is to empower farmers with tools for smarter decisions and better outcomes." Free trials are available for new users. Visit <a href="">AgriSense</a> for more details.</p>
                         </div>
                     </div>
-                    <div className='home7' style={{width:'30%',height:'400px'}}>
-                        <div className='home11 home20' style={{ borderBottom: 'none', height: '400px' }}>
-                            <p style={{ marginBottom: '0', marginTop: '5%', fontSize: '15px', fontWeight: '600' }}>March 01 , 2024</p>
+                    <div className='home227' >
+                        <div className='home211 home220'>
+                            <p>March 01 , 2024</p>
                             <h3>griSense Partners with Agricultural Research Institute for Innovation</h3>
                             <p>AgriSense has teamed up with a leading agricultural research institute to innovate in agriculture. The collaboration aims to develop advanced algorithms for crop monitoring, disease detection, and yield optimization. These algorithms will enhance AgriSense's platform, providing farmers with cutting-edge tools for better crop management.We're thrilled to partner with Agriculture University to drive agricultural innovation," said Aswin, CEO of AgriSense. The collaboration is expected to result in new products and services that will benefit farmers globally. Stay tuned for updates on this exciting partnership.</p>
                         </div>
                     </div>
-                    <div className='home7' style={{width:'30%',height:'400px'}}>
-                        <div className='home11 home20' style={{ borderBottom: 'none', height: '400px' }}>
-                            <p style={{ marginBottom: '0', marginTop: '5%', fontSize: '15px', fontWeight: '600' }}>January 28 , 2024</p>
+                    <div className='home227'>
+                        <div className='home211 home220'>
+                            <p>January 28 , 2024</p>
                             <h3>AgriSense Receives Recognition for Sustainable Farming Practices</h3>
                             <p>AgriSense's innovative approach to agriculture has earned it prestigious recognition for its significant environmental and community impact. Through cutting-edge AI-driven crop management and data-driven decision-making, AgriSense is reshaping farming practices for a sustainable future. The company's commitment to reducing environmental footprints while empowering farming communities has set a new standard in agricultural sustainability.We are honored to be recognized for our efforts," said Aswin, CEO of AgriSense. "At AgriSense, we envision a future where farming is not only productive but also sustainable.</p>
                         </div>

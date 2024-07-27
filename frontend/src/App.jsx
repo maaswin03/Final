@@ -23,7 +23,7 @@ function App() {
           <Route path="/cropdoctor" element={<CropDoctor />} />
           <Route path="/fieldbot" element={<Fieldbot/>} />
           <Route path="/cropai" element={<CropAi/>} />
-          <Route path="/animaldeduction" element={<AnimalDeduction/>}/>
+          <Route path="/animaldetection" element={<AnimalDeduction/>}/>
           <Route path="/pestmanagement" element={<PestManagement/>}/>
           <Route path="/pricing" element={<Pricing/>} />
           <Route path="/cropdoctor" element={<CropDoctor/>} />

@@ -29,7 +29,7 @@ function CropAi() {
   };
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/data")
+    fetch("https://final-1-jkbd.onrender.com/api/data")
       .then((response) => response.json())
       .then((data) => {
         setData(shuffleArray(data));

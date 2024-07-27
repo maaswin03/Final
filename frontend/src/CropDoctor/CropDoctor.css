@@ -76,3 +76,15 @@
     color:rgb(110, 110, 110);
     font-size: 17px;
 }
+
+@media (max-width: 767px){
+    .crop40{
+        flex-wrap: wrap;
+    }
+    .crop41{
+        width: 100%;
+    }
+    .crop41 input{
+        width: 100%;
+    }
+}

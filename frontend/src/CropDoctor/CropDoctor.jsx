@@ -75,7 +75,7 @@ function CropDoctor() {
             <input type="file" required />
           </div>
           <button type="submit" style={{ marginBottom: "3%" }}>
-            Get your Crop Disease Recommendation
+          know about your crop disease
           </button>
         </form>
         <div className="crop22" style={{ whiteSpace: 'pre-line' }}>
@@ -97,7 +97,7 @@ function CropDoctor() {
         </div>
       </div>
 
-      <div className="crop21">
+      <div className="crop21" style={{marginBottom:'10%'}}>
         <form onSubmit={handleFertilizerSubmit}>
           <div className="crop40">
             <div className="crop41">
@@ -138,7 +138,7 @@ function CropDoctor() {
           </div>
 
           <button type="submit" style={{ marginBottom: "3%" }}>
-            Get your Crop Fertilizer Recommendation
+            Get your Fertilizer Recommendation
           </button>
         </form>
         <div className="crop22" style={{ whiteSpace: 'pre-line' }}>

@@ -130,5 +130,39 @@ body{
     padding: 3%;
 }
 
+@media (max-width: 767px){
+    .pest2{
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+    .pest3{
+        width: 48%;
+        margin-top: 2%;
+    }
+    .pest5{
+        margin-top: 10%;
+    }
+    .pest5 h1{
+        font-size: 25px;
+    }
+    .pest7{
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    .pest8{
+        width: 100%;
+        padding: 10px;
+    }
+    .pest5{
+        margin-bottom: 10%;
+    }
+    .pest11{
+        width: 100%;
+    }
+    .pest10{
+        width: 100%;
+    }
+}
+
 
 
