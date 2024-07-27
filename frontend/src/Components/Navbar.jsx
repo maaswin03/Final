@@ -25,8 +25,7 @@ const Navbar = () => {
     <>
       <div className="nav1">
         <div className="nav2 nav3">
-          <span style={{ color: 'white', marginLeft: '5%' }}>Agri</span>
-          <span style={{ color: 'white' }}>Sense</span>
+          <span style={{ color: 'white', marginLeft: '5%' }}>AgriSense</span>
         </div>
         <div className="nav2 nav4">
           <Link to="/">Home</Link>
@@ -60,10 +59,13 @@ const Navbar = () => {
       </div>
 
       <header>
-        <div className="hamburger-menu" onClick={toggleMenu}>
+        <div className="hamburger-menu" onClick={toggleMenu} style={{display:'flex'}}>
+          <div>
           <div className={`bar ${isMenuOpen ? 'animate' : ''}`}></div>
           <div className={`bar ${isMenuOpen ? 'animate' : ''}`}></div>
           <div className={`bar ${isMenuOpen ? 'animate' : ''}`}></div>
+          </div>
+          <div style={{ color: 'white', marginLeft: '5%' , fontWeight:'700',fontSize:"20px"}}>AgriSense</div>
         </div>
         <nav className={`mobile-menu ${isMenuOpen ? 'active' : ''}`}>
           <ul>

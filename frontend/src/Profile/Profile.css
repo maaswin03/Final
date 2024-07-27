@@ -3,10 +3,19 @@
     width: 70%;
     margin: auto;
     border-bottom: 1px solid rgb(171, 171, 171);
+    padding-top: 1%;
 }
 
 .profile2{
     width: 50%;
+}
+
+.profile2 button{
+    border: none;
+    background-color: rgb(46, 141, 78);
+    color:white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
 }
 
 .profile2 h3{
@@ -124,5 +133,45 @@
     padding: 30px;
     margin-bottom: 5%;
     margin-top: 5%;
-    background-color:rgb(238, 255, 245);
+    background-color:rgb(255, 255, 255);
+}
+
+@media (max-width: 768px){
+    .profile1{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .profile4{
+        width: 90%;
+    }
+    .profile10{
+        width: 90%;
+        padding: 10px;
+    }
+    .profile6{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    .profile8{
+        width:100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .profile8 p{
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: justify;
+    }
+    .profile15{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 3%;
+        margin-bottom: 10%;
+    }
+    .profile16{
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
 }

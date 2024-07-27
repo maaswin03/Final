@@ -329,7 +329,6 @@ function Fieldbot() {
                 <p
                   style={{
                     color: "rgb(234, 80, 73)",
-                    color: "rgb(234, 80, 73)",
                     fontSize: "30px",
                     fontWeight: "700",
                     textAlign: "center",
@@ -421,7 +420,6 @@ function Fieldbot() {
                 <p
                   style={{
                     color: "rgb(234, 80, 73)",
-                    color: "rgb(234, 80, 73)",
                     fontSize: "30px",
                     fontWeight: "700",
                     textAlign: "center",
@@ -451,7 +449,6 @@ function Fieldbot() {
                 <p
                   style={{
                     color: "rgb(234, 80, 73)",
-                    color: "rgb(234, 80, 73)",
                     fontSize: "30px",
                     fontWeight: "700",
                     textAlign: "center",
@@ -465,55 +462,6 @@ function Fieldbot() {
           </div>
         </div>
       </div>
-
-      {/* <div className="field7">
-        <div className="field8">
-          <h3>
-            Field Bot:{" "}
-            <span style={{ color: "rgb(234,80,73)" }}>Your Smart</span>{" "}
-            Agriculture{" "}
-            <span style={{ color: "rgb(46, 141, 78)" }}>Partner</span>
-          </h3>
-        </div>
-        <div className="field8">
-          <div className="field9" style={{ marginTop: "5%" }}>
-            <h2>Irrigation</h2>
-            <p>Last Irrigation : Yes</p>
-            <button type="submit">Check Irrigation</button>
-          </div>
-
-          <div className="field9" style={{ marginTop: "5%" }}>
-            <h2>Fire Detection</h2>
-            <p>Fire Check : Yes</p>
-            <button type="submit">Check Fire</button>
-          </div>
-        </div>
-        <div className="field8">
-          <div className="field9">
-            <h2>Gas </h2>
-            <p>Gas Check : Yes</p>
-            <button type="submit">Check Gas</button>
-          </div>
-
-          <div className="field9">
-            <h2>PH Value</h2>
-            <p>PH Value : 6.5</p>
-            <button type="submit">Check Ph Value</button>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="field10">
-        <div className="field11">
-          <h2>How It Works</h2>
-          <p>
-            Field Bot uses a network of sensors placed throughout your farm to
-            collect real-time data. This data is then analyzed by Field Bot's
-            intelligent algorithms, which provide you with actionable insights
-            and alerts via a user-friendly dashboard.
-          </p>
-        </div>
-      </div> */}
       <Footer />
     </div>
   );

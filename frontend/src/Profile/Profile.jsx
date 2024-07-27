@@ -61,7 +61,7 @@ function Profile() {
               <h2>AgriSense ID</h2>
             </div>
             <div className='profile8 profile9'>
-              <p>m.a.aswin2005@gmail.com</p>
+              <p>aswin@gmail.com</p>
               <p><a href="">Manage Apple ID &gt;</a></p>
               <p>Your AgriSense ID is the account you use to access AgriSense services, including our app, data storage, messaging, and more.</p>
               <img src='' width='50%' style={{marginTop:'5%'}}/>
