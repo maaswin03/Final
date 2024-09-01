@@ -11,16 +11,19 @@ function CropDoctor() {
   const [diseaseResponse, setDiseaseResponse] = useState("");
   const [cleanedDiseaseResponse, setCleanedDiseaseResponse] = useState("");
   const [cleanedFertilizerResponse, setCleanedFertilizerResponse] = useState("");
+  const [file, setFile] = useState(null);
 
+  const handleFileChange = (e) => {
+      setFile(e.target.files[0]);
+  };
 
   const handleDiseaseSubmit = async (e) => {
     e.preventDefault();
+    const formData = new FormData();
+    formData.append("image", file); // Make sure 'image' matches the backend field name
 
     try {
-      const formData = new FormData();
-      formData.append("file", e.target[0].files[0]);
-
-      const res = await axios.post("https://final-04do.onrender.com/disease", formData, {
+      const res = await axios.post("https://final-04do.onrender.com/api/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -37,7 +40,6 @@ function CropDoctor() {
       console.error("Error:", error);
     }
   };
-
 
   const handleFertilizerSubmit = async (e) => {
     e.preventDefault();
@@ -72,10 +74,10 @@ function CropDoctor() {
       <div className="crop21">
         <form onSubmit={handleDiseaseSubmit}>
           <div className="crop22">
-            <input type="file" required />
+            <input type="file" onChange={handleFileChange} required />
           </div>
           <button type="submit" style={{ marginBottom: "3%" }}>
-          know about your crop disease
+            Know about your crop disease
           </button>
         </form>
         <div className="crop22" style={{ whiteSpace: 'pre-line' }}>
@@ -97,7 +99,7 @@ function CropDoctor() {
         </div>
       </div>
 
-      <div className="crop21" style={{marginBottom:'10%'}}>
+      <div className="crop21" style={{ marginBottom: '10%' }}>
         <form onSubmit={handleFertilizerSubmit}>
           <div className="crop40">
             <div className="crop41">

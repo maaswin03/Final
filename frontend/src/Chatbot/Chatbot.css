@@ -33,7 +33,7 @@ body {
 }
 
 .chat-message {
-  max-width: 60%;
+  max-width: 80%;
   margin-bottom: 3%;
   padding: 20px;
   padding-bottom: 0;
@@ -109,8 +109,8 @@ body {
   }
 
   .chat-message {
-    max-width: 60%;
-    margin-bottom: 3%;
+    max-width: 80%;
+    margin-bottom: 5%;
     padding: 15px;
     padding-bottom: 0;
     border-radius: 10px;
