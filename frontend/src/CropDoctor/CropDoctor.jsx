@@ -20,7 +20,7 @@ function CropDoctor() {
   const handleDiseaseSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData();
-    formData.append("image", file); // Make sure 'image' matches the backend field name
+    formData.append("image", file);
 
     try {
       const res = await axios.post("https://final-04do.onrender.com/api/upload", formData, {

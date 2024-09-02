@@ -178,7 +178,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({
   storage: storage,
-  limits: { fileSize: 1000000 },
+  limits: { fileSize: 7000000 },
   fileFilter: (req, file, cb) => {
       checkFileType(file, cb);
   }
@@ -234,8 +234,4 @@ const PORT = process.env.PORT || 5100;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 
-
-// app.listen(port, () => {
-//   console.log(`Server is running on port ${port}`);
-// });
 
