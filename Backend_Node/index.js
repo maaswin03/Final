@@ -64,7 +64,7 @@ app.post("/cropai", async (req, res) => {
     const data = await collection.findOne({ device_id: device_id });
 
     if (data) {
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
       const prompt = `
         Temperature: ${data.current_temperature}
@@ -105,7 +105,7 @@ app.post("/cropfertilizer", async (req, res) => {
     const data = await collection.findOne({ device_id: device_id });
 
     if (data) {
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
       const prompt = `
         Temperature: ${data.current_temperature}
@@ -139,7 +139,7 @@ app.post("/cropfertilizer", async (req, res) => {
 
 app.post("/pest", async (req, res) => {
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-  const prompt = "Tell about pest control in detail in india in paragraph";
+  const prompt = "Tell about pest control in detail in paragraph";
 
   try {
     const result = await model.generateContent(prompt);
