@@ -64,7 +64,7 @@ app.post("/cropai", async (req, res) => {
     const data = await collection.findOne({ device_id: device_id });
 
     if (data) {
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
       const prompt = `
         Temperature: ${data.current_temperature}
@@ -105,7 +105,7 @@ app.post("/cropfertilizer", async (req, res) => {
     const data = await collection.findOne({ device_id: device_id });
 
     if (data) {
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
       const prompt = `
         Temperature: ${data.current_temperature}
