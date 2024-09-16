@@ -41,7 +41,7 @@ async function run() {
 run();
 
 app.post("/chatbot", async (req, res) => {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
   const prompt = req.body.prompt;
 
   try {
@@ -56,21 +56,6 @@ app.post("/chatbot", async (req, res) => {
   }
 });
 
-// app.post("/disease", async (req, res) => {
-//   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-//   const prompt = "Tell about the plant disease, both its non-diseased and diseased states, and how to solve it";
-
-//   try {
-//     const result = await model.generateContent(prompt);
-//     const response = await result.response;
-//     const text = await response.text();
-
-//     console.log(text);
-//     res.json({ text });
-//   } catch (error) {
-//     res.status(500).json({ message: "An error occurred", error: error.message });
-//   }
-// });
 
 app.post("/cropai", async (req, res) => {
   const device_id = "ab01";
@@ -79,7 +64,7 @@ app.post("/cropai", async (req, res) => {
     const data = await collection.findOne({ device_id: device_id });
 
     if (data) {
-      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
       const prompt = `
         Temperature: ${data.current_temperature}
@@ -120,7 +105,7 @@ app.post("/cropfertilizer", async (req, res) => {
     const data = await collection.findOne({ device_id: device_id });
 
     if (data) {
-      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
       const prompt = `
         Temperature: ${data.current_temperature}
@@ -153,7 +138,7 @@ app.post("/cropfertilizer", async (req, res) => {
 });
 
 app.post("/pest", async (req, res) => {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
   const prompt = "Tell about pest control in detail in india in paragraph";
 
   try {
